@@ -1,0 +1,147 @@
+/* :root{
+    text-color: white;
+    text-color: rgb(46, 45, 45);
+    body-color: rgb(241, 167, 179);
+    border-color: rgb(59, 59, 59);
+    
+} */
+
+body{
+    background-color: var(--body-color);
+    color: var(--text-color1);
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(0, 100%, 74%); 
+    color: white;
+    height: 100vh;
+    font-size: 14px
+
+}
+
+.main{
+    text-align: center;
+    margin: 40px 20px;
+
+
+}
+.heading{
+    font-size: 40px;
+    font-weight: 700;
+    /* line-height: 1.2; */
+}
+
+.paragraph{
+    margin: 20px auto;
+  width: 300px;
+  /* font-size: 1px; */
+    /* line-height: 1.5; */
+    text-align: center;     
+    font-weight: 600;
+}
+
+.call-to-action{
+     padding: 30px 0;
+     background-color: hsl(248, 32%, 49%);
+     border-radius: 10px;
+
+}
+
+.call-to-action > p{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500px;
+
+}
+
+
+.form-wrapper{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(243, 240, 240);
+    border-radius: 10px;
+}
+
+.form-wrapper > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-wrapper > form > input{
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #cfcaca;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form-wrapper > form > button{
+    margin: 10px 0 0 0;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    background-color: #64e2a5;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+text-transform: uppercase   ;
+}
+
+.form-wrapper > p{
+    color: #767171;
+    font-size: 14px;
+    text-align: center;
+}
+.form-wrapper > p > a{
+    color: #dc6131;
+    text-decoration: none;
+}
+
+.footer{
+
+    margin-top: 20px;
+margin-left: 20px;
+font-size: 12px;
+
+
+}
+
+
+@media(min-width: 765px) and (max-width:1600px){
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+        margin: 40px auto;
+        max-width: 1200px;
+        text-align: left;
+        margin: 40px auto;
+        flex-wrap: wrap;
+        
+    }
+.hero{
+    display: flex ;
+    flex-direction: column;
+    text-align: left;
+    flex-wrap: nowrap;
+}
+    .heading{
+        text-align: center;
+        font-size: 48px;
+    }
+
+    .paragraph{
+        display: block;
+        width: 100%;
+        max-width: 450px;
+        margin: 10px 0;
+        text-align: left;
+        margin-left: 80px;
+    }
+    
+}
