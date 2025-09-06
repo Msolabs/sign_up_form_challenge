@@ -35,10 +35,10 @@ It was created as part of a coding challenge to practice building user-friendly 
 
 ## 📸 Preview
 ### Desktop Preview
-![Desktop Preview 1](./asset/media/desktop_preview.JPG)  
+![Desktop Preview 1](./assets/media/desktop_preview.JPG)  
 
 ### Mobile Preview
-![GlobeVista Preview 2](./asset/media/mobile_preview.JPG)  
+![Mobile Preview 2](./assets/media/mobile_preview.JPG)  
 
 
 🌟 Possible Improvements
