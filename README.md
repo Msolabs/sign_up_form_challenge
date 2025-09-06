@@ -34,11 +34,11 @@ It was created as part of a coding challenge to practice building user-friendly 
 - **Google Fonts** for typography
 
 ## 📸 Preview
-# Desktop Preview
-(./assets/media/desktop_preview.JPG)
+### Desktop Preview
+![Desktop Preview 1](./asset/media/desktop_preview.JPG)  
 
-# Mobile Preview
-(./assets/media/mobile_preview.JPG)
+### Mobile Preview
+![GlobeVista Preview 2](./asset/media/mobile_preview.JPG)  
 
 
 🌟 Possible Improvements
